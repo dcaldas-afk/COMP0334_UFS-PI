@@ -4,6 +4,7 @@
 
 int menu() {
     int opcao;
+
     printf("Selecione uma opção:\n\n");
     printf("1) Divisão igual simples\n2) Divisão proporcional ao consumo\n");
     printf("3) Rateio com pesos diferentes\n0) Fechar programa\n\n");
@@ -28,6 +29,7 @@ float divIgual(float conta) {
 
 float divProporcional(float conta) {
     float n1, n2, n3, n4;
+    
     printf("Qual o valor da conta de energia?\nResposta: ");
     scanf("%f", &conta);
     if (conta < 0) {
